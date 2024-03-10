@@ -216,8 +216,8 @@
       }).then((result) => {
         if (result.isConfirmed) {
           swalWithBootstrapButtons.fire({
-            title: "สำเร็จ! นี้คือ API",
-            text: "เซิฟเวอร์มอดไม่มี API โปรดโหลดตัวเกมด้านล่าง",
+            title: "สำเร็จ! นี้คือ API!",
+            text: "(ปิด API โปรดใช้ตัวเกมด้านล่าง)",
             icon: "success"
           });
         } else if (
@@ -225,8 +225,8 @@
           result.dismiss === Swal.DismissReason.cancel
         ) {
           swalWithBootstrapButtons.fire({
-            title: "สำเร็จ! นี้คือ IP",
-            text: "เซิฟเวอร์มอดไม่มี IP โปรดโหลดตัวเกมด้านล่าง",
+            title: "สำเร็จ! นี้คือ IP!",
+            text: "(ปิด IP โปรดใช้ตัวเกมด้านล่าง)",
             icon: "success"
           });
         }
